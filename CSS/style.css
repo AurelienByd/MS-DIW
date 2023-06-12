@@ -224,3 +224,13 @@ div#grille_catégories {
     -webkit-transform: scale(2);
     transform: scale(2);
 }
+
+#footer_cat {
+    width:860px;
+    height:58px;
+    border: 2px solid #000000;
+    display: flex;
+    margin: 50px auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
