@@ -140,15 +140,15 @@ div#grille_catégories {
 }
 
 #grille_plats {
-        margin: 25px auto auto auto;
-        max-width: 60%;
-        height: auto;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 200px;
-        column-gap: 20%;
-        row-gap: 5%;
-        justify-content: center;
+    margin: 25px auto auto auto;
+    max-width: 60%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px;
+    column-gap: 20%;
+    row-gap: 5%;
+    justify-content: center;
 }
 
 .plat_1 {
@@ -233,4 +233,36 @@ div#grille_catégories {
     margin: 50px auto auto auto;
     justify-content: space-evenly;
     align-items: center;
+}
+
+#grille_plats_cat {
+    margin: 25px auto auto auto;
+    max-width: 60%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto);
+    column-gap: 20%;
+    row-gap: 5%;
+    justify-content: center;
+}
+
+.cat_1_cat_1 {
+    width: 400px;
+    height: 400px;
+    border: 2px solid #000000;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cat_1_plat_1 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+}
+
+.cat_1_plat_2 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
 }
