@@ -371,4 +371,23 @@ div#grille_catégories {
     font-size: 32px;
     border: 2px solid #000000;
     background-color: #eeff00;
+    font-family: 'Comic Sans MS';
+}
+
+#grille_all_plats {
+    margin: 25px auto 200px auto;
+    max-width: 60%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px;
+    column-gap: 20%;
+    row-gap: 5%;
+    justify-content: center;
+}
+
+.all_plat {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
 }
