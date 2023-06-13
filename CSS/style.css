@@ -360,3 +360,15 @@ div#grille_catégories {
     height: 200px;
     border: 2px solid #000000;
 }
+
+#tourner {
+    margin: 80px auto auto auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boutontourner {
+    font-size: 32px;
+    border: 2px solid #000000;
+    background-color: #eeff00;
+}
