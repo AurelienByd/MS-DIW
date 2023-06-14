@@ -8,6 +8,20 @@ p {
     text-align: center;
 }
 
+h1 {
+    font-family: 'Comic Sans MS';
+    text-align: center;
+}
+
+#liste {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+    text-align: center;
+}
+
 header {
     position: relative;
     width: 100%;
@@ -417,4 +431,13 @@ div#sous-top_accueil {
     justify-content: space-evenly;
     align-items: center;
     background-color: #000000;
+}
+
+.image_plat {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #000000;
 }
