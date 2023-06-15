@@ -442,7 +442,7 @@ div#sous-top_accueil {
     border: 2px solid #000000;
 }
 
-#formulaire {
+/* #formulaire {
     margin: auto;
     display: grid;
     gap: 10px;
@@ -466,4 +466,4 @@ textarea {
     width: 20cm;
     height: 70px;
     border: 2px solid #000000;
-}
+} */
