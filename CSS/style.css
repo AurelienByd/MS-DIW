@@ -183,9 +183,10 @@ div#grille_catégories {
     background-color: #FFFFFF;
 }
 
-#footer {
+footer {
     width:860px;
     height:58px;
+    bottom: 0px;
     border: 2px solid #000000;
     display: flex;
     margin: auto;
