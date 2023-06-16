@@ -1,5 +1,9 @@
 body {
     display: inline;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
 }
 
 p {
@@ -104,8 +108,20 @@ div#sous-top {
     height: 30px;
 }
 
-div#grille_catégories {
+#grille_catégories {
     margin: 25px auto auto auto;
+    max-width: 60%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px;
+    column-gap: 30%;
+    row-gap: 5%;
+    justify-content: center;
+}
+
+#grille_catégories_catégories {
+    margin: 25px auto 100px auto;
     max-width: 60%;
     height: auto;
     display: grid;
@@ -159,7 +175,7 @@ div#grille_catégories {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 200px;
-    column-gap: 20%;
+    column-gap: 30%;
     row-gap: 5%;
     justify-content: center;
 }
@@ -189,7 +205,7 @@ footer {
     bottom: 0px;
     border: 2px solid #000000;
     display: flex;
-    margin: auto;
+    margin: 50px auto  auto auto;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -238,16 +254,6 @@ footer {
     -ms-transform: scale(2);
     -webkit-transform: scale(2);
     transform: scale(2);
-}
-
-#footer_cat {
-    width:860px;
-    height:58px;
-    border: 2px solid #000000;
-    display: flex;
-    margin: 50px auto auto auto;
-    justify-content: space-evenly;
-    align-items: center;
 }
 
 #grille_plats_cat {
