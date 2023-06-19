@@ -17,6 +17,8 @@ h1 {
     text-align: center;
 }
 
+/* Liste ingrédients pour certains plats */
+
 #liste {
     margin: auto;
     display: flex;
@@ -47,6 +49,8 @@ nav {
     top: 10px;
 }
 
+/* Liens des pages du nav */
+
 #liens {
     display: flex;
     justify-content: space-around;
@@ -59,6 +63,8 @@ nav {
     text-decoration-line: underline;
     margin-top: 20px;
 }
+
+/* Pour changer la couleur des liens en survolant avec la souris */
 
 a:hover {
     color: #FF0000;
@@ -97,6 +103,8 @@ div#sous-top {
     position: absolute;
 } */
 
+/* Barre de recherche */
+
 .search {
     width: 10cm;
     height: 35px;
@@ -107,6 +115,8 @@ div#sous-top {
     width: 4cm;
     height: 30px;
 }
+
+/* Grille catégories de la page d'accueil */
 
 #grille_catégories {
     margin: 25px auto auto auto;
@@ -119,6 +129,8 @@ div#sous-top {
     row-gap: 5%;
     justify-content: center;
 }
+
+/* Grille catégories de la page catégories */
 
 #grille_catégories_catégories {
     margin: 25px auto 100px auto;
@@ -220,6 +232,8 @@ footer {
     position: absolute;
 }
 
+/* Pour aggrandir les images des catégories sur la page d'accueil quand on passe dessus avec la souris */
+
 #cat_1:hover {
     -ms-transform: scale(2);
     -webkit-transform: scale(2);
@@ -255,6 +269,8 @@ footer {
     -webkit-transform: scale(2);
     transform: scale(2);
 }
+
+/* Pour les images des plats dans chaque catégories */
 
 #grille_plats_cat {
     margin: 25px auto auto auto;
@@ -383,6 +399,8 @@ footer {
     border: 2px solid #000000;
 }
 
+/* Pour tourner les pages des catégories */
+
 #tourner {
     margin: 80px auto auto auto;
     display: flex;
@@ -395,6 +413,8 @@ footer {
     background-color: #eeff00;
     font-family: 'Comic Sans MS';
 }
+
+/* Grille des plats pour la page des plats */
 
 #grille_all_plats {
     margin: 25px auto 200px auto;
@@ -413,6 +433,8 @@ footer {
     height: 200px;
     border: 2px solid #000000;
 }
+
+/* Image de fond de la page d'accueil */
 
 .parallax {
     background-attachment: fixed;
