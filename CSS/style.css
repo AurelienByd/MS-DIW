@@ -276,11 +276,12 @@ footer {
     margin: 25px auto auto auto;
     max-width: 60%;
     height: auto;
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(auto);
     column-gap: 20%;
-    row-gap: 5%;
-    justify-content: center;
+    row-gap: 5%; */
+    display: flex;
+    justify-content: space-around;
 }
 
 .cat_1_cat_1 {
