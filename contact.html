@@ -10,6 +10,45 @@
     <title>The District</title>
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg text-dark bg-success bg-opacity-50 border border border-3 border-bottom-0 border-black">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="/ASSETS/images_the_district/the_district_brand/logo.png" alt="logo" width="90"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-link fs-3 text text-primary ms-5 me-5">Accueil</a>
+                    <a href="categories.html" class="nav-link fs-3 text text-primary ms-5 me-5">Catégories</a>
+                    <a href="plats.html" class="nav-link fs-3 text text-primary ms-5 me-5">Plats</a>
+                    <a href="contact.html" class="nav-link fs-3 text text-primary ms-5 me-5">Contact</a>
+                </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid border border-3 border-top-0 border-black p-0"><img src="/ASSETS/images_the_district/bg1.jpeg" alt="image barre de recherche" class="container-fluid p-0" height="170"></div>
+    <form action="" method="post" class="d-flex justify-content-center flex-wrap p-5 m-5">
+        <div class="col-5 mb-5 me-5">
+            <label for="nom" class="form-label fw-bold">Nom</label><input type="text" name="nom" class="form-control border border-3 border-black">
+        </div>
+        <div class="col-5 mb-5 ms-5">
+            <label for="prénom" class="form-label fw-bold">Prénom</label><input type="text" name="prénom" class="form-control border border-3 border-black">
+        </div>
+        <div class="col-5 mb-5 me-5">
+            <label for="email" class="form-label fw-bold">Email</label><input type="email" name="email" class="form-control border border-3 border-black">
+        </div>
+        <div class="col-5 mb-5 ms-5">
+            <label for="téléphone" class="form-label fw-bold">Téléphone</label><input type="number" name="téléphone" class="form-control border border-3 border-black">
+        </div>
+        <div class="col-11 mb-5">
+            <label for="demande" class="form-label fw-bold">Votre demande</label><textarea name="demande" rows="3" class="form-control border border-3 border-black"></textarea>
+        </div>
+        <div class="col-10 d-flex justify-content-end">
+            <input type="submit" value="Envoyer" class="btn btn-info text-white">
+        </div>
+    </form>
 </body>
 <script src="../MS-DIW/JAVASCRIPT/script.js"></script>
 </html>
