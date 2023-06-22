@@ -164,6 +164,7 @@ div#sous-top {
     border: 2px solid #000000;
     background-image: url(/ASSETS/images_the_district/category/pasta_cat.jpg);
     background-size: cover;
+    background-position-y: center;
 }
 
 .cat_2 {
@@ -180,6 +181,7 @@ div#sous-top {
     border: 2px solid #000000;
     background-image: url(/ASSETS/images_the_district/category/salade_cat.jpg);
     background-size: cover;
+    background-position-y: center;
 }
 
 .cat_4 {
@@ -321,18 +323,27 @@ footer {
     margin: auto;
     display: flex;
     justify-content: center;
+    background-image: url(/ASSETS/images_the_district/category/pasta_cat.jpg);
+    background-size: cover;
+    background-position-y: center;
 }
 
 .cat_1_plat_1 {
     width: 200px;
     height: 200px;
     border: 2px solid #000000;
+    background-image: url(/ASSETS/images_the_district/food/spaghetti-legumes.jpg);
+    background-size: cover;
+    background-position-x: left;
 }
 
 .cat_1_plat_2 {
     width: 200px;
     height: 200px;
     border: 2px solid #000000;
+    background-image: url(/ASSETS/images_the_district/food/tagliatelles-saumon.webp);
+    background-size: cover;
+    background-position-x: center;
 }
 
 .cat_2_cat_2 {
@@ -342,25 +353,33 @@ footer {
     margin: auto;
     display: flex;
     justify-content: center;
+    background-image: url(/ASSETS/images_the_district/category/pizza_cat.jpg);
+    background-size: cover;
 }
 
 .cat_2_plat_1 {
     width: 200px;
     height: 200px;
     border: 2px solid #000000;
+    background-image: url(/ASSETS/images_the_district/food/pizza-margherita.jpg);
+    background-size: cover;
 }
 
 .cat_2_plat_2 {
     width: 200px;
     height: 200px;
     border: 2px solid #000000;
+    background-image: url(/ASSETS/images_the_district/food/pizza-salmon.png);
+    background-size: cover;
 }
 
 .cat_2_plat_3 {
     width: 200px;
     height: 200px;
     border: 2px solid #000000;
-    margin-bottom: 50px;
+    background-image: url(/ASSETS/images_the_district/food/Food-Name-8298.jpg);
+    background-size: cover;
+    background-position-x: right;
 }
 
 .cat_3_cat_3 {
@@ -370,19 +389,28 @@ footer {
     margin: auto;
     display: flex;
     justify-content: center;
+    background-image: url(/ASSETS/images_the_district/category/salade_cat.jpg);
+    background-size: cover;
+    background-position-y: center;
 }
 
 .cat_3_plat_1 {
     width: 200px;
     height: 200px;
     border: 2px solid #000000;
+    background-image: url(/ASSETS/images_the_district/food/cesar_salad.jpg);
+    background-size: cover;
+    background-position-y: center;
 }
 
 .cat_3_plat_2 {
     width: 200px;
     height: 200px;
     border: 2px solid #000000;
-    background-color: #FFFFFF;
+    background-image: url(/ASSETS/images_the_district/food/salad1.png);
+    background-size: cover;
+    background-position-x: center;
+    background-color: #FFFFFF
 }
 
 .cat_4_cat_4 {
@@ -392,12 +420,16 @@ footer {
     margin: auto;
     display: flex;
     justify-content: center;
+    background-image: url(/ASSETS/images_the_district/category/sandwich_cat.jpg);
+    background-size: cover;
 }
 
 .cat_4_plat_1 {
     width: 200px;
     height: 200px;
     border: 2px solid #000000;
+    background-image: url(/ASSETS/images_the_district/food/Food-Name-3631.jpg);
+    background-size: cover;
 }
 
 .cat_5_cat_5 {
@@ -407,12 +439,17 @@ footer {
     margin: auto;
     display: flex;
     justify-content: center;
+    background-image: url(/ASSETS/images_the_district/category/veggie_cat.jpg);
+    background-size: cover;
+    background-position-x: right;
 }
 
 .cat_5_plat_1 {
     width: 200px;
     height: 200px;
     border: 2px solid #000000;
+    background-image: url(/ASSETS/images_the_district/recette-quinoa-potimarron.webp);
+    background-size: cover;
 }
 
 .cat_6_cat_6 {
@@ -422,12 +459,16 @@ footer {
     margin: auto;
     display: flex;
     justify-content: center;
+    background-image: url(/ASSETS/images_the_district/category/wrap_cat.jpg);
+    background-size: cover;
 }
 
 .cat_6_plat_1 {
     width: 200px;
     height: 200px;
     border: 2px solid #000000;
+    background-image: url(/ASSETS/images_the_district/food/Food-Name-3461.jpg);
+    background-size: cover;
 }
 
 /* Pour tourner les pages des catégories */
@@ -459,10 +500,90 @@ footer {
     justify-content: center;
 }
 
-.all_plat {
+.all_plat1 {
     width: 200px;
     height: 200px;
     border: 2px solid #000000;
+    background-image: url(/ASSETS/images_the_district/food/spaghetti-legumes.jpg);
+    background-size: cover;
+    background-position-x: left;
+}
+
+.all_plat2 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+    background-image: url(/ASSETS/images_the_district/food/tagliatelles-saumon.webp);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.all_plat3 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+    background-image: url(/ASSETS/images_the_district/food/pizza-margherita.jpg);
+    background-size: cover;
+}
+
+.all_plat4 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+    background-image: url(/ASSETS/images_the_district/food/pizza-salmon.png);
+    background-size: cover;
+}
+
+.all_plat5 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+    background-image: url(/ASSETS/images_the_district/food/Food-Name-8298.jpg);
+    background-size: cover;
+    background-position-x: right;
+}
+
+.all_plat6 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+    background-image: url(/ASSETS/images_the_district/food/cesar_salad.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+.all_plat7 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+    background-image: url(/ASSETS/images_the_district/food/salad1.png);
+    background-size: cover;
+    background-position-x: center;
+    background-color: #FFFFFF
+}
+
+.all_plat8 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+    background-image: url(/ASSETS/images_the_district/food/Food-Name-3631.jpg);
+    background-size: cover;
+}
+
+.all_plat9 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+    background-image: url(/ASSETS/images_the_district/recette-quinoa-potimarron.webp);
+    background-size: cover;
+}
+
+.all_plat10 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+    background-image: url(/ASSETS/images_the_district/food/Food-Name-3461.jpg);
+    background-size: cover;
 }
 
 /* Image de fond de la page d'accueil */
@@ -652,7 +773,7 @@ textarea {
         height: auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 200px;
+        grid-template-rows: 155px;
         column-gap: 20%;
         row-gap: 5%;
         justify-content: center;
@@ -664,6 +785,7 @@ textarea {
         border: 2px solid #000000;
         background-image: url(/ASSETS/images_the_district/category/pasta_cat.jpg);
         background-size: cover;
+        background-position-y: center;
     }
     
     .cat_2 {
@@ -680,6 +802,7 @@ textarea {
         border: 2px solid #000000;
         background-image: url(/ASSETS/images_the_district/category/salade_cat.jpg);
         background-size: cover;
+        background-position-y: center;
     }
     
     .cat_4 {
@@ -704,6 +827,247 @@ textarea {
         height: 150px;
         border: 2px solid #000000;
         background-image: url(/ASSETS/images_the_district/category/wrap_cat.jpg);
+        background-size: cover;
+    }
+
+    .all_plat1 {
+        width: 150px;
+        height: 150px;
+        border: 2px solid #000000;
+        background-image: url(/ASSETS/images_the_district/food/spaghetti-legumes.jpg);
+        background-size: cover;
+        background-position-x: left;
+    }
+    
+    .all_plat2 {
+        width: 150px;
+        height: 150px;
+        border: 2px solid #000000;
+        background-image: url(/ASSETS/images_the_district/food/tagliatelles-saumon.webp);
+        background-size: cover;
+        background-position-x: center;
+    }
+    
+    .all_plat3 {
+        width: 150px;
+        height: 150px;
+        border: 2px solid #000000;
+        background-image: url(/ASSETS/images_the_district/food/pizza-margherita.jpg);
+        background-size: cover;
+    }
+    
+    .all_plat4 {
+        width: 150px;
+        height: 150px;
+        border: 2px solid #000000;
+        background-image: url(/ASSETS/images_the_district/food/pizza-salmon.png);
+        background-size: cover;
+    }
+    
+    .all_plat5 {
+        width: 150px;
+        height: 150px;
+        border: 2px solid #000000;
+        background-image: url(/ASSETS/images_the_district/food/Food-Name-8298.jpg);
+        background-size: cover;
+        background-position-x: right;
+    }
+    
+    .all_plat6 {
+        width: 150px;
+        height: 150px;
+        border: 2px solid #000000;
+        background-image: url(/ASSETS/images_the_district/food/cesar_salad.jpg);
+        background-size: cover;
+        background-position-y: center;
+    }
+    
+    .all_plat7 {
+        width: 150px;
+        height: 150px;
+        border: 2px solid #000000;
+        background-image: url(/ASSETS/images_the_district/food/salad1.png);
+        background-size: cover;
+        background-position-x: center;
+        background-color: #FFFFFF
+    }
+    
+    .all_plat8 {
+        width: 150px;
+        height: 150px;
+        border: 2px solid #000000;
+        background-image: url(/ASSETS/images_the_district/food/Food-Name-3631.jpg);
+        background-size: cover;
+    }
+    
+    .all_plat9 {
+        width: 150px;
+        height: 150px;
+        border: 2px solid #000000;
+        background-image: url(/ASSETS/images_the_district/recette-quinoa-potimarron.webp);
+        background-size: cover;
+    }
+    
+    .all_plat10 {
+        width: 150px;
+        height: 150px;
+        border: 2px solid #000000;
+        background-image: url(/ASSETS/images_the_district/food/Food-Name-3461.jpg);
+        background-size: cover;
+    }
+
+    .cat_1_cat_1 {
+        width: 300px;
+        height: 300px;
+        border: 2px solid #000000;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        background-image: url(/ASSETS/images_the_district/category/pasta_cat.jpg);
+        background-size: cover;
+        background-position-y: center;
+    }
+    
+    .cat_1_plat_1 {
+        width: 200px;
+        height: 200px;
+        border: 2px solid #000000;
+        background-image: url(/ASSETS/images_the_district/food/spaghetti-legumes.jpg);
+        background-size: cover;
+        background-position-x: left;
+    }
+    
+    .cat_1_plat_2 {
+        width: 200px;
+        height: 200px;
+        border: 2px solid #000000;
+        background-image: url(/ASSETS/images_the_district/food/tagliatelles-saumon.webp);
+        background-size: cover;
+        background-position-x: center;
+    }
+    
+    .cat_2_cat_2 {
+        width: 300px;
+        height: 300px;
+        border: 2px solid #000000;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        background-image: url(/ASSETS/images_the_district/category/pizza_cat.jpg);
+        background-size: cover;
+    }
+    
+    .cat_2_plat_1 {
+        width: 200px;
+        height: 200px;
+        border: 2px solid #000000;
+        background-image: url(/ASSETS/images_the_district/food/pizza-margherita.jpg);
+        background-size: cover;
+    }
+    
+    .cat_2_plat_2 {
+        width: 200px;
+        height: 200px;
+        border: 2px solid #000000;
+        background-image: url(/ASSETS/images_the_district/food/pizza-salmon.png);
+        background-size: cover;
+    }
+    
+    .cat_2_plat_3 {
+        width: 200px;
+        height: 200px;
+        border: 2px solid #000000;
+        background-image: url(/ASSETS/images_the_district/food/Food-Name-8298.jpg);
+        background-size: cover;
+        background-position-x: right;
+    }
+    
+    .cat_3_cat_3 {
+        width: 300px;
+        height: 300px;
+        border: 2px solid #000000;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        background-image: url(/ASSETS/images_the_district/category/salade_cat.jpg);
+        background-size: cover;
+        background-position-y: center;
+    }
+    
+    .cat_3_plat_1 {
+        width: 200px;
+        height: 200px;
+        border: 2px solid #000000;
+        background-image: url(/ASSETS/images_the_district/food/cesar_salad.jpg);
+        background-size: cover;
+        background-position-y: center;
+    }
+    
+    .cat_3_plat_2 {
+        width: 200px;
+        height: 200px;
+        border: 2px solid #000000;
+        background-image: url(/ASSETS/images_the_district/food/salad1.png);
+        background-size: cover;
+        background-position-x: center;
+        background-color: #FFFFFF
+    }
+    
+    .cat_4_cat_4 {
+        width: 300px;
+        height: 300px;
+        border: 2px solid #000000;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        background-image: url(/ASSETS/images_the_district/category/sandwich_cat.jpg);
+        background-size: cover;
+    }
+    
+    .cat_4_plat_1 {
+        width: 200px;
+        height: 200px;
+        border: 2px solid #000000;
+        background-image: url(/ASSETS/images_the_district/food/Food-Name-3631.jpg);
+        background-size: cover;
+    }
+    
+    .cat_5_cat_5 {
+        width: 300px;
+        height: 300px;
+        border: 2px solid #000000;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        background-image: url(/ASSETS/images_the_district/category/veggie_cat.jpg);
+        background-size: cover;
+        background-position-x: right;
+    }
+    
+    .cat_5_plat_1 {
+        width: 200px;
+        height: 200px;
+        border: 2px solid #000000;
+        background-image: url(/ASSETS/images_the_district/recette-quinoa-potimarron.webp);
+        background-size: cover;
+    }
+    
+    .cat_6_cat_6 {
+        width: 300px;
+        height: 300px;
+        border: 2px solid #000000;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        background-image: url(/ASSETS/images_the_district/category/wrap_cat.jpg);
+        background-size: cover;
+    }
+    
+    .cat_6_plat_1 {
+        width: 200px;
+        height: 200px;
+        border: 2px solid #000000;
+        background-image: url(/ASSETS/images_the_district/food/Food-Name-3461.jpg);
         background-size: cover;
     }
 }
