@@ -109,6 +109,7 @@ div#sous-top {
     align-items: center;
     background-image: url(/ASSETS/images_the_district/bg1.jpeg);
     background-size: cover;
+    background-position-y: center;
 }
 
 
@@ -248,6 +249,7 @@ footer {
     align-items: center;
     background-image: url(/ASSETS/images_the_district/bg.jpg);
     background-size: cover;
+    background-position-y: center;
 }
 
 .lien_facebook {
@@ -567,6 +569,7 @@ textarea {
         align-items: center;
         background-image: url(/ASSETS/images_the_district/bg1.jpeg);
         background-size: cover;
+        background-position-y: center;
     }
 
     #grille_plats {
@@ -607,6 +610,7 @@ textarea {
         margin: 50px auto  auto auto;
         justify-content: space-evenly;
         align-items: center;
+        background-position-y: center;
     }
 
     .lien_facebook {
