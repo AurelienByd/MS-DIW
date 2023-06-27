@@ -32,18 +32,30 @@
     
     
     
-    <form action="" method="post" class="d-flex justify-content-center flex-wrap p-5 m-5 bg-black">
+    <form action="" method="post" class="d-flex justify-content-center flex-wrap p-5 m-5 bg-warning p-2 text-dark bg-opacity-25">
         <div class="col-lg-11 col-12 ms-lg-5 mb-5 me-lg-5">
-            <label for="nometprénom" class="form-label fw-bold text-info">Nom et prénom</label><input type="text" name="nometprénom" class="form-control border border-3 border-black">
+            <label for="nometprénom" class="form-label fw-bold text-info">Nom et prénom</label><input type="text" name="nometprénom" class="form-control is-invalid border border-3 border-black" required>
+            <div class="invalid-feedback">
+                Ce champ est obligatoire
+            </div>
         </div>
         <div class="col-lg-5 col-12 mb-5 me-lg-5">
-            <label for="email" class="form-label fw-bold text-info">Email</label><input type="email" name="email" class="form-control border border-3 border-black">
+            <label for="email" class="form-label fw-bold text-info">Email</label><input type="email" name="email" class="form-control is-invalid border border-3 border-black" required>
+            <div class="invalid-feedback">
+                Ce champ est obligatoire
+            </div>
         </div>
         <div class="col-lg-5 col-12 mb-5 ms-lg-5">
-            <label for="téléphone" class="form-label fw-bold text-info">Téléphone</label><input type="number" name="téléphone" class="form-control border border-3 border-black">
+            <label for="téléphone" class="form-label fw-bold text-info">Téléphone</label><input type="number" name="téléphone" class="form-control is-invalid border border-3 border-black" required>
+            <div class="invalid-feedback">
+                Ce champ est obligatoire
+            </div>
         </div>
         <div class="col-lg-11 col-12 mb-5">
-            <label for="adresse" class="form-label fw-bold text-info">Votre adresse</label><textarea name="adresse" rows="3" class="form-control border border-3 border-black"></textarea>
+            <label for="adresse" class="form-label fw-bold text-info">Votre adresse</label><textarea name="adresse" rows="3" class="form-control is-invalid border border-3 border-black" required></textarea>
+            <div class="invalid-feedback">
+                Ce champ est obligatoire
+            </div>
         </div>
         <div class="col-lg-10 d-flex justify-content-end">
             <input type="submit" value="Envoyer" class="btn btn-info text-white">
