@@ -147,7 +147,7 @@ div#sous-top {
 /* Grille catégories de la page catégories */
 
 #grille_catégories_catégories {
-    margin: 25px auto 100px auto;
+    margin: 25px auto 150px auto;
     max-width: 60%;
     height: auto;
     display: grid;
@@ -225,12 +225,18 @@ div#sous-top {
     width: 200px;
     height: 100px;
     border: 2px solid #000000;
+    background-image: url(/ASSETS/images_the_district/food/Food-Name-3631.jpg);
+    background-size: cover;
+    background-position-y: center;
 }
 
 .plat_2 {
     width: 200px;
     height: 100px;
     border: 2px solid #000000;
+    background-image: url(/ASSETS/images_the_district/food/pizza-salmon.png);
+    background-size: cover;
+    background-position-y: center;
 }
 
 .plat_3 {
@@ -238,6 +244,9 @@ div#sous-top {
     height: 100px;
     border: 2px solid #000000;
     background-color: #FFFFFF;
+    background-image: url(/ASSETS/images_the_district/food/salad1.png);
+    background-size: cover;
+    background-position-y: center;
 }
 
 footer {
@@ -760,13 +769,13 @@ textarea {
 /* Pour navbar */
 
 * {
-    padding: 0;
-    margin: 0;
-    /* box-sizing: border-box; */
+    /* padding: 0;
+    margin: 0; */
+    box-sizing: border-box;
 }
 
 .navbar li {
-    margin: 10px;
+    /* margin: 10px; */
     font-family: 'Comic Sans MS';
     font-size: 30px;
     list-style: none;
@@ -846,6 +855,14 @@ textarea {
     .nav-menu.active {
         left: 0;
     }
+
+    .navbar li {
+        margin: 10px;
+        font-family: 'Comic Sans MS';
+        font-size: 30px;
+        list-style: none;
+    }
+
 
 /* Pour navbar */
 
