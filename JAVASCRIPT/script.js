@@ -45,3 +45,22 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
 }))
 
 // Pour navbar
+
+//Pour la commande
+
+var recup = document.getElementById("btncommand");
+var recupimage = document.getElementById("commandeimgplat");
+var recupcommandeimage = document.getElementById("recupcommandeimage")
+
+recup.addEventListener("click", function(commande){
+    
+    
+
+
+
+
+
+
+
+    commande.preventDefault();
+})
