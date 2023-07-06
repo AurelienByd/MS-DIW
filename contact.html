@@ -6,25 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/ASSETS/images_the_district/logo (1).ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="CSS/style.css"> -->
+    <link rel="stylesheet" href="CSS/style.css">
     <title>The District</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg text-dark bg-success bg-opacity-50 border border border-3 border-bottom-0 border-black">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="/ASSETS/images_the_district/the_district_brand/logo.png" alt="logo" width="90"></a>
-                <button class="navbar-toggler border border-danger border-2 bg-white text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a href="index.html" class="nav-link fs-3 text text-primary ms-5 me-5 link-danger">Accueil</a>
-                    <a href="categories.html" class="nav-link fs-3 text text-primary ms-5 me-5 link-danger">Catégories</a>
-                    <a href="plats.html" class="nav-link fs-3 text text-primary ms-5 me-5 link-danger">Plats</a>
-                    <a href="contact.html" class="nav-link fs-3 text text-primary ms-5 me-5 link-danger">Contact</a>
-                </div>
-                </div>
+        <nav class="navbar">
+            <div>
+                <img src="/ASSETS/images_the_district/the_district_brand/logo.png" alt="logo" class="logo">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="accueil">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="categories.html" class="catégories">Catégories</a>
+                </li>
+                <li class="nav-item">
+                    <a href="plats.html" class="plats">Plats</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="contact">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <button class="button" type="button">Menu</button>
             </div>
         </nav>
     </header>
@@ -55,11 +61,11 @@
             <input type="submit" value="Envoyer" class="btn btn-info text-white">
         </div>
     </form>
-    <footer class="d-flex justify-content-center align-items-center"><img src="/ASSETS/images_the_district/bg.jpg" class="border border-3 border-black" alt="image footer" width="860" height="58">
+    <footer>
         <a href="" title="page Facebook" class="position-absolute me-5 pe-5"><img src="/ASSETS/images_the_district/145802.png" alt="icône Facebook" width="50" height="50"></a>
         <a href="" title="page Twitter" class="position-absolute ms-5 ps-5"><img src="/ASSETS/images_the_district/733579.png" alt="icône Twitter" width="50" height="50"></a>
     </footer>
 </body>
-<!-- <script src="JAVASCRIPT/script.js"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="JAVASCRIPT/script.js"></script>
 </html>

@@ -17,6 +17,18 @@ h1 {
     text-align: center;
 }
 
+#btncommand {
+    margin: auto;
+    padding: 15px 10px 15px 10px;
+    font-size: large;
+    color: #FF0000;
+    background-color: #000000;
+    border: 5px solid yellow;
+    font-family: 'Comic Sans MS';
+    display: flex;
+    justify-content: center;
+}
+
 /* Liste ingrédients pour certains plats */
 
 #liste {
@@ -606,10 +618,8 @@ footer {
     background-image: url(/ASSETS/images_the_district/vecteezy_nuts-fruits-and-vegetables-flat-lay_2037798.jpg);
 }
 
-.video {
-    margin: auto;
-    justify-content: flex-start;
-    position: absolute;
+div#sous-top_accueil .video {
+    
 }
 
 div#sous-top_accueil {
@@ -819,6 +829,47 @@ textarea {
 }
 
 /* Pour navbar */
+
+.commandesection {
+    margin: 30px auto auto auto;
+    border: 2px solid black;
+    width: 400px;
+    height: 10%;
+    background-color: lightyellow;
+}
+
+.commandeimgplat {
+    display: block;
+    justify-content: center;
+    margin: 10px auto auto auto;
+    border: 2px solid #FF0000;
+}
+
+.txttitreplat {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.txtdescription {
+    font-size: 20px;
+}
+
+.divquantitenb {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto auto 10px auto;
+}
+
+.txtquantite {
+    display: inline;
+    font-size: 20px;
+}
+
+.nbquantite {
+    height: 35px;
+    width: 35px;
+    border: 2px solid #000000;
+}
 
 @media screen and (max-width: 992px) {
 
