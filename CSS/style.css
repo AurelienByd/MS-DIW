@@ -27,6 +27,7 @@ h1 {
     font-family: 'Comic Sans MS';
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 /* Liste ingrédients pour certains plats */
@@ -871,6 +872,17 @@ textarea {
     border: 2px solid #000000;
 }
 
+.imptitre {
+    margin: 70% auto auto auto;
+    font-size: larger;
+    font-weight: 700;
+    color: #000000;
+    background-color: #FF0000;
+    text-decoration-line: underline;
+    opacity: 0.75;
+}
+
+
 @media screen and (max-width: 992px) {
 
 /* Pour navbar */
@@ -1452,5 +1464,15 @@ textarea {
         border: 2px solid #000000;
         background-image: url(/ASSETS/images_the_district/food/Food-Name-3461.jpg);
         background-size: cover;
+    }
+
+    .imptitre {
+        margin: 65% auto auto auto;
+        font-size: medium;
+        font-weight: 700;
+        color: #000000;
+        background-color: #FF0000;
+        text-decoration-line: underline;
+        opacity: 0.75;
     }
 }
