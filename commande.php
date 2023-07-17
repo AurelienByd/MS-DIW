@@ -11,28 +11,9 @@
 </head>
 <body class="bg-warning bg-opacity-25">
     <header>
-        <nav class="navbar">
-            <div>
-                <img src="/ASSETS/images_the_district/the_district_brand/logo.png" alt="logo" class="logo">
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="index.html" class="accueil">Accueil</a>
-                </li>
-                <li class="nav-item">
-                    <a href="categories.html" class="catégories">Catégories</a>
-                </li>
-                <li class="nav-item">
-                    <a href="plats.html" class="plats">Plats</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="contact">Contact</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <button class="button" type="button">Menu</button>
-            </div>
-        </nav>
+        <?php
+        require "header.php";
+        ?>
     </header>
     
     <section id="commandesection" class="commandesection">
@@ -77,8 +58,9 @@
         </div>
     </form>
     <footer>
-        <a href="" title="page Facebook" class="position-absolute me-5 pe-5"><img src="/ASSETS/images_the_district/145802.png" alt="icône Facebook" width="50" height="50"></a>
-        <a href="" title="page Twitter" class="position-absolute ms-5 ps-5"><img src="/ASSETS/images_the_district/733579.png" alt="icône Twitter" width="50" height="50"></a>
+        <?php
+        require "footer.php";
+        ?>
     </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
