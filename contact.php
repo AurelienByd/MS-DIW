@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/ASSETS/images_the_district/logo (1).ico">
+    <link rel="icon" href="/ASSETS/images_the_district/logo(1).ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/style.css">
     <title>The District</title>
@@ -16,7 +16,7 @@
         ?>
     </header>
     <div class="container-fluid border border-3 border-top-0 border-black p-0"><img src="/ASSETS/images_the_district/bg1.jpeg" alt="image barre de recherche" class="container-fluid p-0" height="170"></div>
-    <form id="form-contact" action="" method="post" class="d-flex justify-content-center flex-wrap p-5 m-5">
+    <form id="form-contact" action="recupcontact.php" method="post" class="d-flex justify-content-center flex-wrap p-5 m-5">
         <div class="col-lg-5 col-12 mb-5 me-lg-5">
             <label for="nom" class="form-label fw-bold">Nom</label><input type="text" name="nom" id="name" class="form-control is-invalid border border-3 border-black" required>
             <div class="invalid-feedback">
@@ -47,7 +47,7 @@
         require "footer.php";
         ?>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JAVASCRIPT/script.js"></script>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<script src="JAVASCRIPT/script.js"></script>
 </html>

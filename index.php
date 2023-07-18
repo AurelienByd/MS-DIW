@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Commandez un plat parmis une large sélection.">
-    <link rel="icon" href="/ASSETS/images_the_district/logo (1).ico">
+    <link rel="icon" href="/ASSETS/images_the_district/logo(1).ico">
     <link rel="stylesheet" href="CSS/style.css">
     <title>The District</title>
 </head>
@@ -15,7 +15,7 @@
         require "header.php";
         ?>
     </header>
-        <div id="sous-top_accueil"><video src="/ASSETS/images_the_district/vegetables_-_14129 (360p).mp4" class="video" autoplay loop muted></video>
+        <div id="sous-top_accueil"><video src="/ASSETS/images_the_district/vegetables_-_14129(360p).mp4" class="video" autoplay loop muted></video>
                 <form action="" method="get" id="search">
                 <input type="text" placeholder="Recherche..." class="search">
                 <input type="button" value="envoyer" class="boutton">
@@ -32,15 +32,15 @@
         </div>
         <p>Plats :</p>
         <div id="grille_plats" class="parallax">
-            <div class="plat_1"><a href="plat8.php" title="grilled cheese"><img src="/ASSETS/images_the_district/Solid_white.svg_transparent.png" width="200" height="100"></a></div>
-            <div class="plat_2"><a href="plat4.php" title="pizza au saumon"><img src="/ASSETS/images_the_district/Solid_white.svg_transparent.png" width="200" height="100"></a></div>
-            <div class="plat_3"><a href="plat7.php" title="salade"><img src="/ASSETS/images_the_district/Solid_white.svg_transparent.png" width="200" height="100"></a></div>
+            <div class="plat_1"><a href="plat8.php" title="grilled cheese"><img src="/ASSETS/images_the_district/Solid_white.svg_transparent.png" alt="" width="200" height="100"></a></div>
+            <div class="plat_2"><a href="plat4.php" title="pizza au saumon"><img src="/ASSETS/images_the_district/Solid_white.svg_transparent.png" alt="" width="200" height="100"></a></div>
+            <div class="plat_3"><a href="plat7.php" title="salade"><img src="/ASSETS/images_the_district/Solid_white.svg_transparent.png" alt="" width="200" height="100"></a></div>
         </div>
         <footer>
             <?php
             require "footer.php";
             ?>
         </footer>
+        <script src="JAVASCRIPT/script.js"></script>
 </body>
-<script src="JAVASCRIPT/script.js"></script>
 </html>
