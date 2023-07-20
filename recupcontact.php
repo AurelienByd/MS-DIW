@@ -14,10 +14,10 @@ $demande = $_REQUEST["demande"];
 
 $fp = fopen("$date.txt", "a");
 
-fputs($fp, $nom)."<br>";
-fputs($fp, $prenom)."<br>";
-fputs($fp, $email)."<br>";
-fputs($fp, $phone)."<br>";
-fputs($fp, $demande)."<br>";
+fputs($fp, "Nom : ".$nom."\n");
+fputs($fp, "Prénom : ".$prenom."\n");
+fputs($fp, "Email : ".$email."\n");
+fputs($fp, "Téléphone : ".$phone."\n");
+fputs($fp, "Demande : ".$demande."\n");
 
 ?>
