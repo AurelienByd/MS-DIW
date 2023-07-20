@@ -16,9 +16,9 @@
     </header>
         <div id="sous-top">
         </div>
-        <p>Catégorie 1 :</p>
+        <p class="color_titre">Catégorie 1 :</p>
             <div class="cat_1_cat_1"></div>
-        <p>Plats :</p>
+        <p class="color_titre">Plats :</p>
             <div id="grille_plats_cat">
                 <div class="cat_1_plat_1"><a href="plat1.php" title="Spaghettis et légumes"><p class="imptitre">Spaghettis et légumes</p></a></div>
                 <div class="cat_1_plat_2"><a href="plat2.php" title="Tagliatelles avec saumon"><p class="imptitre">Tagliatelles avec saumon</p></a></div>

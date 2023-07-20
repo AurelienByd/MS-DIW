@@ -16,9 +16,9 @@
     </header>
         <div id="sous-top">
         </div>
-        <p>Catégorie 3 :</p>
+        <p class="color_titre">Catégorie 3 :</p>
             <div class="cat_3_cat_3"></div>
-        <p>Plats :</p>
+        <p class="color_titre">Plats :</p>
             <div id="grille_plats_cat">
                 <div class="cat_3_plat_1"><a href="plat6.php" title="Salade César"><p class="imptitre">Salade césar</p></a></div>
                 <div class="cat_3_plat_2"><a href="plat7.php" title="Salade"><p class="imptitre">Salade</p></a></div>

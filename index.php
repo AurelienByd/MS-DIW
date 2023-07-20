@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="CSS/style.css">
     <title>The District</title>
 </head>
-<body>
+<body class="parallax">
     <header>
         <?php
         require "header.php";
@@ -17,12 +17,12 @@
     </header>
         <div id="sous-top_accueil"><video src="/ASSETS/images_the_district/vegetables_-_14129(360p).mp4" class="video" autoplay loop muted></video>
                 <form action="" method="get" id="search">
-                <input type="text" placeholder="Recherche..." class="search">
-                <input type="button" value="envoyer" class="boutton">
+                <input type="text" placeholder="Recherche..." id="barre_search">
+                <input type="button" value="envoyer" id="boutton">
                 </form>
         </div>
-        <p id="p-accueil">Catégories :</p>
-        <div id="grille_catégories" class="parallax">
+        <p id="p-accueil" class="color_titre_accueil">Catégories :</p>
+        <div id="grille_catégories">
             <div class="cat_1" id="cat_1"><a href="categorie1.php" title="pasta"><p class="imptitre">Pasta</p></a></div>
             <div class="cat_2" id="cat_2"><a href="categorie2.php" title="pizza"><p class="imptitre">Pizza</p></a></div>
             <div class="cat_3" id="cat_3"><a href="categorie3.php" title="salade"><p class="imptitre">Salade</p></a></div>
@@ -30,8 +30,8 @@
             <div class="cat_5" id="cat_5"><a href="categorie5.php" title="veggie"><p class="imptitre">Veggie</p></a></div>
             <div class="cat_6" id="cat_6"><a href="categorie6.php" title="wrap"><p class="imptitre">Wrap</p></a></div>
         </div>
-        <p>Plats :</p>
-        <div id="grille_plats" class="parallax">
+        <p class="color_titre_accueil">Plats :</p>
+        <div id="grille_plats">
             <div class="plat_1"><a href="plat8.php" title="grilled cheese"><img src="/ASSETS/images_the_district/Solid_white.svg_transparent.png" alt="" width="200" height="100"></a></div>
             <div class="plat_2"><a href="plat4.php" title="pizza au saumon"><img src="/ASSETS/images_the_district/Solid_white.svg_transparent.png" alt="" width="200" height="100"></a></div>
             <div class="plat_3"><a href="plat7.php" title="salade"><img src="/ASSETS/images_the_district/Solid_white.svg_transparent.png" alt="" width="200" height="100"></a></div>

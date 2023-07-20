@@ -15,7 +15,7 @@
         ?>
     </header>
         <div id="sous-top"></div>
-        <p>Tout les plats :</p>
+        <p class="color_titre">Tout les plats :</p>
         <div id="grille_all_plats">
             <div class="all_plat1"><a href="plat1.php" title="Spaghettis et légumes"><p class="imptitre">Spaghettis et légumes</p></a></div>
             <div class="all_plat2"><a href="plat2.php" title="Tagliatelles avec saumon"><p class="imptitre">Tagliatelles avec saumon</p></a></div>

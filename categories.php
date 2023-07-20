@@ -16,7 +16,7 @@
     </header>
         <div id="sous-top">
         </div>
-        <p>Catégories :</p>
+        <p class="color_titre">Catégories :</p>
         <div id="grille_catégories_catégories">
             <div class="cat_1"><a href="categorie1.php" title="pasta"><p class="imptitre">Pasta</p></a></div>
             <div class="cat_2"><a href="categorie2.php" title="pizza"><p class="imptitre">Pizza</p></a></div>

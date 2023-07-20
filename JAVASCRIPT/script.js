@@ -31,7 +31,7 @@
 
 // Pour navbar
 
-const hamburger = document.querySelector(".hamburger");
+const hamburger = document.querySelector(".button");
 const navMenu = document.querySelector(".nav-menu");
 
 hamburger.addEventListener("click", () => {

@@ -16,9 +16,9 @@
     </header>
         <div id="sous-top">
         </div>
-        <p>Catégorie 5 :</p>
+        <p class="color_titre">Catégorie 5 :</p>
             <div class="cat_5_cat_5"></div>
-        <p>Plats :</p>
+        <p class="color_titre">Plats :</p>
             <div id="grille_plats_cat">
                 <div class="cat_5_plat_1"><a href="plat9.php" title="Quinoa aux potimarrons"><p class="imptitre">Quinoa aux potimarrons</p></a></div>
             </div>
