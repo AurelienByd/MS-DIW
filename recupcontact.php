@@ -5,10 +5,10 @@ $format = "Y-m-d-H-i-s";
 $date = date($format, $oSecondes);
 
 
-$nom = $_REQUEST["nom"];
-$prenom = $_REQUEST["prénom"];
+$nom = $_REQUEST["name"];
+$prenom = $_REQUEST["firstname"];
 $email = $_REQUEST["email"];
-$phone = $_REQUEST["téléphone"];
+$phone = $_REQUEST["phone"];
 $demande = $_REQUEST["demande"];
 
 

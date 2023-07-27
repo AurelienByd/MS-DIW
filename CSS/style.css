@@ -1023,6 +1023,279 @@ textarea {
     color: #FFFFFF;
 }
 
+/* Pour formulaire de contact */
+
+#form-contact {
+    margin: auto auto 150px auto;
+}
+
+.div1_form_contact {
+    margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div2_form_contact {
+    margin: 30px auto auto auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div3_form_contact {
+    margin: 30px auto auto auto;
+    display: flex;
+    justify-content: center;
+}
+
+.label_form_contact {
+    display: inline-block;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input_form_contact {
+    display: block;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    border: 2px solid black;
+    width: 25rem;
+}
+
+.textarea_form_contact {
+    display: block;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    border: 2px solid black;
+    width: 61.5rem;
+}
+
+.input_form_contact:focus {
+    border: 2px solid black;
+    background-color: rgb(182, 182, 182);
+}
+
+.textarea_form_contact:focus {
+    border: 2px solid black;
+    background-color: rgb(182, 182, 182);
+}
+
+.div4_form_contact {
+    margin: 30px auto auto auto;
+    display: flex;
+    justify-content: center;
+}
+
+.button_submit_form_contact {
+    margin: auto 5px auto 5px;
+    border: none;
+    background-color: #00B2FF;
+    color: #FFFFFF;
+    font-family: "Comic Sans MS";
+    font-size: medium;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.fieldset_form_contact {
+    border: none;
+}
+
+.span_form_contact {
+    font-family: "Comic Sans MS";
+    display: block;
+}
+
+.p_form_contact {
+    /* display: inline; */
+    color: #FF0000;
+    font-family: "Comic Sans MS";
+    /* font-size: 10px; */
+    font-weight: bold;
+}
+
+@media (max-width:992px) {
+
+    #form-contact {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .div1_form_contact {
+        margin: auto auto auto auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div2_form_contact {
+        margin: auto auto auto auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div3_form_contact {
+        margin: auto auto 40px auto;
+    }
+
+    .input_form_contact {
+        margin: auto auto auto auto;
+        width: 15rem;
+    }
+
+    .textarea_form_contact {
+        width: 15rem;
+        height: 72px;
+    }
+
+    .div_form_contact {
+        margin: auto auto 30px auto;
+    }
+}
+
+/* Pour formulaire de contact */
+
+/* Pour formulaire de commande */
+
+.div1_form_commande {
+    margin: auto auto auto auto;
+    display: flex;
+    justify-content: center;
+}
+
+.div2_form_commande {
+    margin: 30px auto auto auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div3_form_commande {
+    margin: 30px auto auto auto;
+    display: flex;
+    justify-content: center;
+}
+
+.label_form_commande {
+    display: inline-block;
+    color: #00B2FF;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input_form_commande {
+    display: block;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    border: 2px solid black;
+    width: 25rem;
+}
+
+.input_nameandfirstname_form_commande {
+    display: block;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    border: 2px solid black;
+    width: 61.5rem;
+}
+
+.textarea_form_commande {
+    display: block;
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+    border: 2px solid black;
+    width: 61.5rem;
+}
+
+.input_form_commande:focus {
+    border: 2px solid black;
+    background-color: rgb(182, 182, 182);
+}
+
+.textarea_form_commande:focus {
+    border: 2px solid black;
+    background-color: rgb(182, 182, 182);
+}
+
+.div4_form_commande {
+    margin: 30px auto auto auto;
+    display: flex;
+    justify-content: center;
+}
+
+.button_submit_form_commande {
+    margin: auto 5px auto 5px;
+    border: none;
+    background-color: #00B2FF;
+    color: #FFFFFF;
+    font-family: "Comic Sans MS";
+    font-size: medium;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.fieldset_form_commande {
+    border: none;
+}
+
+.span_form_commande {
+    font-family: "Comic Sans MS";
+    display: block;
+}
+
+.p_form_commande {
+    /* display: inline; */
+    color: #FF0000;
+    font-family: "Comic Sans MS";
+    /* font-size: 10px; */
+    font-weight: bold;
+}
+
+@media (max-width:992px) {
+
+    #form-commande {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .div1_form_commande {
+        margin: auto auto auto auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div2_form_commande {
+        margin: auto auto auto auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div3_form_commande {
+        margin: auto auto 40px auto;
+    }
+
+    .input_nameandfirstname_form_commande {
+        width: 15rem;
+    }
+
+    .input_form_commande {
+        margin: auto auto auto auto;
+        width: 15rem;
+    }
+
+    .textarea_form_commande {
+        width: 15rem;
+        height: 72px;
+    }
+
+    .div_form_commande {
+        margin: auto auto 30px auto;
+    }
+}
+
+/* Pour formulaire de commande */
+
 @media screen and (max-width: 992px) {
 
 /* Pour navbar */
