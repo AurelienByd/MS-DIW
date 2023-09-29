@@ -1,10 +1,17 @@
+<?php
+
+require 'connexion.php';
+
+require 'DAO.php';
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/ASSETS/images_the_district/logo(1).ico">
+    <link rel="icon" href="/ASSETS/images_the_district/logo.ico">
     <link rel="stylesheet" href="CSS/style.css">
     <title>The District</title>
 </head>
@@ -16,16 +23,37 @@
     </header>
         <div id="sous-top">
         </div>
-        <p class="color_titre">Catégorie 1 :</p>
-            <div class="cat_1_cat_1"></div>
+
+        <?php affich_titre_cat();
+        foreach($executerqt as $row): ?>
+
+        <p class="color_titre"><?= $row["libelle"] ?>'s :</p>
+
+        <?php endforeach; ?>
+
+        <?php affich_titre_cat();
+        foreach($executerqt as $row): ?>
+
+        <div class="cat_<?= $row["id"] ?>_cat_<?= $row["id"] ?>"></div>
+
+        <?php endforeach; ?>
+
         <p class="color_titre">Plats :</p>
             <div id="grille_plats_cat">
-                <div class="cat_1_plat_1"><a href="plat1.php" title="Spaghettis et légumes"><p class="imptitre">Spaghettis et légumes</p></a></div>
-                <div class="cat_1_plat_2"><a href="plat2.php" title="Tagliatelles avec saumon"><p class="imptitre">Tagliatelles avec saumon</p></a></div>
+
+            <?php affich_plats_cat();
+            foreach($executerqt as $row): ?>
+
+            <div class="cat_<?=$row["id_categorie"]?>_plat_<?=$row["id_plat"]?>"><a href="plat.php?id=<?=  $row["id_plat"] ?>" title="<?=$row["libelle_plat"]?>"><p class="imptitre"><?=$row["libelle_plat"]?></p></a></div>
+
+            <?php endforeach; ?>
+
             </div>
             <div id="tourner">
+
                 <a href="categorie6.php" class="boutontourner">Précédent</a>
                 <a href="categorie2.php" class="boutontourner">Suivant</a>
+                
             </div>
         <footer>
             <?php

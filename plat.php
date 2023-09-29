@@ -1,10 +1,17 @@
+<?php
+
+require 'connexion.php';
+
+require 'DAO.php';
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/ASSETS/images_the_district/logo(1).ico">
+    <link rel="icon" href="/ASSETS/images_the_district/logo.ico">
     <link rel="stylesheet" href="CSS/style.css">
     <title>The District</title>
 </head>
@@ -15,18 +22,20 @@
         ?>
     </header>
     <div id="sous-top"></div>
+
+    <?php affich_plat();
+        foreach($executerqt as $row): ?>
+        
         <section>
-        <h1>Pizza margherita</h1>
-        <div id="recupcommandeimage" class="image_plat_3"></div>
-        <p>Ingrédients :</p>
-        <div id="liste"><ul>
-            <li>Tomate</li>
-            <li>Mozzarella</li>
-            <li>Basilic</li>
-        </ul></div>
-        <h1>10€</h1>
+        <h1 id="recuptitreplat"><?= $row["libelle"]?></h1>
+        <div id="recupcommandeimage" class="image_plat_<?= $row["id"]?>"></div>
+        <p><?= $row["description"]?></p>
+        <h1><?= $row["prix"]?></h1>
         </section>
-        <button id="btncommand" type="submit">Commander</button>
+        <a href="commande.php?id=<?=  $row["id"] ?>" id="btncommand">Commander</a>
+
+        <?php endforeach; ?>
+
         <footer>
             <?php
             require "footer.php";

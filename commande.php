@@ -1,10 +1,17 @@
+<?php
+
+require 'connexion.php';
+
+require 'DAO.php';
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/ASSETS/images_the_district/logo(1).ico">
+    <link rel="icon" href="/ASSETS/images_the_district/logo.ico">
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="CSS/style.css">
     <title>The District</title>
@@ -16,17 +23,30 @@
         ?>
     </header>
     
-    <section id="commandesection" class="commandesection">
-        <img src="" width="100" height="100" id="commandeimgplat" class="commandeimgplat">
+    <?php affich_plat();
+        foreach($executerqt as $row): ?>
         
-        <p id="txttitreplat" class="txttitreplat">Nom du plat</p>
-        <p id="txtdescription" class="txtdescription">Lorem Ipsum</p>
-        
-        <div class="divquantitenb">
-        <p id="txtquantite" class="txtquantite">Quantité :</p>
-        <input type="number" value="1" min="0" id="nbquantite" class="nbquantite">
+        <section id="sectionCommandePlat">
+
+        <div class="divsectionCommandePlat">
+            <div id="divsectionCommandePlatImg">
+                <img src="/ASSETS/images_the_district/food/<?= $row["image"] ?>" width="100" height="100">
+            </div>
+            <div id="divsectionCommandePlatInfo">
+                <div>
+                    <h5 id="txtCommandeTitre"><?= $row["libelle"] ?></h5>
+                    <p id="txtCommandePlat"><?= $row["description"] ?></p>
+                </div>
+                <div id="divsectionCommandePlatInfos">
+                    <p id="txtCommandePlat2">Quantité</p>
+                    <input type="number" name="nbrQuantite" class="btnNbrQuantite" value="1" min="1" max="9">
+                </div>
+            </div>
         </div>
-    </section>
+
+        </section>
+
+        <?php endforeach; ?>
     
     <!-- <form action="" method="post" class="d-flex justify-content-center flex-wrap p-5 m-5 bg-warning p-2 text-dark bg-opacity-25">
         <div class="col-lg-11 col-12 ms-lg-5 mb-5 me-lg-5">
