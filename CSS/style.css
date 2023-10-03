@@ -1341,11 +1341,10 @@ textarea {
 
 @media (max-width:992px) {
 
-    #form-commande {
+    /* #form-commande {
         display: flex;
         justify-content: center;
-    }
-
+    } */
 
     .div1_form_commande {
         margin: auto auto auto auto;

@@ -23,31 +23,6 @@ require 'DAO.php';
         ?>
     </header>
     
-    <?php affich_plat();
-        foreach($executerqt as $row): ?>
-        
-        <section id="sectionCommandePlat">
-
-        <div class="divsectionCommandePlat">
-            <div id="divsectionCommandePlatImg">
-                <img src="/ASSETS/images_the_district/food/<?= $row["image"] ?>" width="100" height="100">
-            </div>
-            <div id="divsectionCommandePlatInfo">
-                <div>
-                    <h5 id="txtCommandeTitre"><?= $row["libelle"] ?></h5>
-                    <p id="txtCommandePlat"><?= $row["description"] ?></p>
-                </div>
-                <div id="divsectionCommandePlatInfos">
-                    <p id="txtCommandePlat2">Quantité</p>
-                    <input type="number" name="nbrQuantite" class="btnNbrQuantite" value="1" min="1" max="9">
-                </div>
-            </div>
-        </div>
-
-        </section>
-
-        <?php endforeach; ?>
-    
     <!-- <form action="" method="post" class="d-flex justify-content-center flex-wrap p-5 m-5 bg-warning p-2 text-dark bg-opacity-25">
         <div class="col-lg-11 col-12 ms-lg-5 mb-5 me-lg-5">
             <label for="nometprénom" class="form-label fw-bold text-info">Nom et prénom</label><input type="text" name="nometprénom" class="form-control is-invalid border border-3 border-black" required>
@@ -80,7 +55,35 @@ require 'DAO.php';
 
     <p class="color_titre">Commande :</p>
     
-    <form action="" method="post" id="form-commande">
+    <form action="commande_script.php" method="post" id="form-commande">
+
+    <?php affich_plat();
+        foreach($executerqt as $row): ?>
+        
+        <section id="sectionCommandePlat">
+
+        <div class="divsectionCommandePlat">
+            <div id="divsectionCommandePlatImg">
+                <img src="/ASSETS/images_the_district/food/<?= $row["image"] ?>" width="100" height="100">
+            </div>
+            <div id="divsectionCommandePlatInfo">
+                <div>
+                    <h5 id="txtCommandeTitre"><?= $row["libelle"] ?></h5>
+                    <p id="txtCommandePlat"><?= $row["description"] ?></p>
+                </div>
+                <div id="divsectionCommandePlatInfos">
+                    <p id="txtCommandePlat2">Quantité</p>
+                    <input type="number" name="nbrQuantite" class="btnNbrQuantite" value="1" min="1" max="9">
+                </div>
+            </div>
+        </div>
+        <input type="hidden" name="id" value="<?= $row["id"] ?>">
+        <input type="hidden" name="prixPlat" value="<?= $row["prix"] ?>">
+
+        </section>
+
+        <?php endforeach; ?>
+        
         <fieldset class="fieldset_form_commande">
         <div class="div1_form_commande">
             <div class="div_form_commande"><label class="label_form_commande" for="nameandfirstname">Nom et prénom</label><sup class="p_form_commande">*</sup><input type="text" name="nameandfirstname" id="nameandfirstname" class="input_nameandfirstname_form_commande"><span id="error1" class="span_form_commande"></span></div>
@@ -105,5 +108,6 @@ require 'DAO.php';
     </footer>
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
     <script src="JAVASCRIPT/script.js"></script>
+    <script src="JAVASCRIPT/commande.js"></script>
 </body>
 </html>
