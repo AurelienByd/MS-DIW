@@ -68,32 +68,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     } catch (PDOException) {
     echo "Erreur du formulaire";
     }
-
-$db = null;
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+$db = null;
 
 ?>
