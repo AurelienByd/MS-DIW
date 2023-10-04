@@ -79,6 +79,7 @@ require 'DAO.php';
         </div>
         <input type="hidden" name="id" value="<?= $row["id"] ?>">
         <input type="hidden" name="prixPlat" value="<?= $row["prix"] ?>">
+        <input type="hidden" name="nomPlat" value="<?= $row["libelle"] ?>">
 
         </section>
 
@@ -89,7 +90,7 @@ require 'DAO.php';
             <div class="div_form_commande"><label class="label_form_commande" for="nameandfirstname">Nom et prénom</label><sup class="p_form_commande">*</sup><input type="text" name="nameandfirstname" id="nameandfirstname" class="input_nameandfirstname_form_commande"><span id="error1" class="span_form_commande"></span></div>
         </div>
         <div class="div2_form_commande">
-            <div class="div_form_commande"><label class="label_form_commande" for="email">Email</label><sup class="p_form_commande">*</sup><input type="email" name="email" id="email" class="input_form_commande"><span id="error2" class="span_form_commande"></span></div>
+            <div class="div_form_commande"><label class="label_form_commande" for="email">Email</label><sup class="p_form_commande">*</sup><input type="text" name="email" id="email" class="input_form_commande"><span id="error2" class="span_form_commande"></span></div>
             <div class="div_form_commande"><label class="label_form_commande" for="phone">Téléphone</label><sup class="p_form_commande">*</sup><input type="text" name="phone" id="phone" class="input_form_commande"><span id="error3" class="span_form_commande"></span></div>
         </div>
         <div class="div3_form_commande">

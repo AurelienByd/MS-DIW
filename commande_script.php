@@ -15,6 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $adresse = $_POST['adresse'];
     $idPlat = $_POST['id'];
     $prixPlat = $_POST['prixPlat'];
+    $nomPlat = $_POST['nomPlat'];
 
     $totalPrixPlat = $quantite*$prixPlat;
 
@@ -27,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if (empty($nom) || empty($email) || empty($phone) || empty($adresse)) {
             echo 'Veuillez remplir tout les champs';
         } else {
-            if (preg_match('/(?=.*?[a-z ])(?=.*?[A-Z ])/', $nom) == false && preg_match('/(?=.*?[a-zA-Z0-9-.\_])@[a-zA-Z0-9]+.[a-zA-Z]{2,3}/', $email) == false && preg_match('/0[1-9]([-. ]?[0-9]{2}){4}/', $phone) == false && preg_match('/[a-zA-Z0-9- ]/', $adresse) == false) {
+            if (preg_match('/^(?=.*?[a-z- ])(?=.*?[A-Z- ])$/', $nom) == false && preg_match('/^(?=.*?[a-zA-Z0-9-.\_])@[a-zA-Z0-9]+.[a-zA-Z]{2,3}$/', $email) == false && preg_match('/^0[1-9]([-. ]?[0-9]{2}){4}$/', $phone) == false && preg_match('/^[a-zA-Z0-9- ]$/', $adresse) == false) {
             echo 'Veuillez respecter le format des champs demandés';
             } else {
 
@@ -38,6 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 $_SESSION["adresse"] = $adresse;
                 $_SESSION["idPlat"] = $idPlat;
                 $_SESSION["totalPrix"] = $totalPrixPlat;
+                $_SESSION["nomPlat"] = $nomPlat;
 
                 $_SESSION["date"] = $date;
 
@@ -56,9 +58,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     $envoie->bindParam(":adresse", $_SESSION["adresse"]);
                     $envoie->execute();
 
-                    require 'destroy.php';
+                    // envoie du mail
 
-                    header("Location: index.php");
+                    header("Location: envoie_mail_script.php");
+
+                    // require 'destroy.php';
 
                 } catch (PDOException) {
                     echo "Erreur sur le script";

@@ -1,0 +1,21 @@
+{
+    "name": "atone/aurelien",
+    "type": "library",
+    "require": {
+        "php": ">=5.5.0",
+        "ext-ctype": "*",
+        "ext-filter": "*",
+        "ext-hash": "*",
+        "phpmailer/phpmailer": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Aurélien",
+            "email": "aurelien.bayard.pro@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "10.4.x-dev"
+    }
+}
