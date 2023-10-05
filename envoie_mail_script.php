@@ -25,7 +25,7 @@ $mail->isSMTP();
 $mail->Host       = 'localhost';    
 
 // On désactive l'authentification SMTP
-$mail->SMTPAuth   = true;    
+$mail->SMTPAuth   = false;    
 
 // On configure le port SMTP (MailHog)
 $mail->Port       = 1025;                                   

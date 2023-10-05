@@ -51,8 +51,8 @@ require 'DAO.php';
             </div>
             <div id="tourner">
 
-                <a href="categorie.php?id=" class="boutontourner">Précédent</a>
-                <a href="categorie.php?id=" class="boutontourner">Suivant</a>
+                <!-- <a href="categorie.php?id=" class="boutontourner">Précédent</a>
+                <a href="categorie.php?id=" class="boutontourner">Suivant</a> -->
                 
             </div>
         <footer>
