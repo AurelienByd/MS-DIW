@@ -2369,6 +2369,50 @@ textarea {
         background-size: cover;
     }
 
+    .image_plat_4 {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        border: 3px solid #008cff;
+        background-image: url(/ASSETS/images_the_district/food/hamburger.jpg);
+        background-size: cover;
+    }
+
+    .image_plat_5 {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        border: 3px solid #008cff;
+        background-image: url(/ASSETS/images_the_district/food/pizza-salmon.png);
+        background-size: cover;
+    }
+
+    .image_plat_9 {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        border: 3px solid #008cff;
+        background-image: url(/ASSETS/images_the_district/food/buffalo-chicken.webp);
+        background-size: cover;
+    }
+
+    .image_plat_10 {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        border: 3px solid #008cff;
+        background-image: url(/ASSETS/images_the_district/food/cheesburger.jpg);
+        background-size: cover;
+    }
+
     .image_plat_12 {
         margin: auto;
         width: 300px;
@@ -2379,6 +2423,51 @@ textarea {
         background-image: url(/ASSETS/images_the_district/food/spaghetti-legumes.jpg);
         background-size: cover;
         background-position-x: left;
+    }
+
+    .image_plat_13 {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        border: 3px solid #008cff;
+        background-image: url(/ASSETS/images_the_district/food/cesar_salad.jpg);
+        background-size: cover;
+        background-position-y: center;
+    }
+
+    .image_plat_14 {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        border: 3px solid #008cff;
+        background-image: url(/ASSETS/images_the_district/food/pizza-margherita.jpg);
+        background-size: cover;
+    }
+
+    .image_plat_15 {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        border: 3px solid #008cff;
+        background-image: url(/ASSETS/images_the_district/food/courgettes_farcies.jpg);
+        background-size: cover;
+    }
+
+    .image_plat_16 {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        border: 3px solid #008cff;
+        background-image: url(/ASSETS/images_the_district/food/lasagnes_viande.jpg);
+        background-size: cover;
     }
     
     .image_plat_17 {
@@ -2393,26 +2482,16 @@ textarea {
         background-position-x: center;
     }
     
-    .image_plat_14 {
+    .image_plat_18 {
         margin: auto;
         width: 300px;
         height: 300px;
         display: flex;
         justify-content: center;
         border: 3px solid #008cff;
-        background-image: url(/ASSETS/images_the_district/food/pizza-margherita.jpg);
+        background-image: url(/ASSETS/images_the_district/food/tarte_aux_pommes.jpg);
         background-size: cover;
-    }
-    
-    .image_plat_5 {
-        margin: auto;
-        width: 300px;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        border: 3px solid #008cff;
-        background-image: url(/ASSETS/images_the_district/food/pizza-salmon.png);
-        background-size: cover;
+        background-position-x: center;
     }
     
     .image_plat_19 {
@@ -2425,18 +2504,6 @@ textarea {
         background-image: url(/ASSETS/images_the_district/food/Food-Name-8298.jpg);
         background-size: cover;
         background-position-x: right;
-    }
-    
-    .image_plat_13 {
-        margin: auto;
-        width: 300px;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        border: 3px solid #008cff;
-        background-image: url(/ASSETS/images_the_district/food/cesar_salad.jpg);
-        background-size: cover;
-        background-position-y: center;
     }
     
     .image_plat_20 {
@@ -2474,16 +2541,6 @@ textarea {
         background-size: cover;
     }
     
-    .image_plat_9 {
-        margin: auto;
-        width: 300px;
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        border: 3px solid #008cff;
-        background-image: url(/ASSETS/images_the_district/food/buffalo-chicken.webp);
-        background-size: cover;
-    }
 
     .imptitre {
         margin: 62% auto auto auto;
