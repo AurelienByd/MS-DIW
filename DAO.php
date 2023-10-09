@@ -121,13 +121,13 @@ $executerqt = $rqt->fetchAll();
 
 };
 
-// Pour afficher les 6 plats de la page d'accueil
+// Pour afficher les 6 plats de la page plats
 
 function get_plats() {
 
 global $db, $rqtprep, $rqt, $executerqt;
 
-$rqtprep = "SELECT DISTINCT plat.id, plat.libelle FROM `plat` INNER JOIN `categorie` ON plat.id_categorie=categorie.id WHERE plat.active='Yes' ORDER BY RAND() LIMIT 6";
+$rqtprep = "SELECT DISTINCT plat.id, plat.libelle FROM `plat` INNER JOIN `categorie` ON plat.id_categorie=categorie.id WHERE plat.active='Yes' AND categorie.active='Yes' ORDER BY RAND() LIMIT 6";
 $rqt = $db->prepare($rqtprep);
 $rqt->execute();
 $executerqt = $rqt->fetchAll();

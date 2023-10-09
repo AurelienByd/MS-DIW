@@ -49,6 +49,10 @@ h1 {
     cursor: pointer;
 }
 
+.invtext {
+    visibility: hidden;
+}
+
 /* Liste ingrédients pour certains plats */
 
 #liste {
@@ -1542,6 +1546,10 @@ textarea {
 
 /* Pour formulaire de commande */
 
+#form-commande {
+        margin: auto auto 150px auto;
+    }
+
 .div1_form_commande {
     margin: auto auto auto auto;
     display: flex;
@@ -1928,7 +1936,7 @@ textarea {
     }
 
     #grille_all_plats {
-        margin: 25px auto 300px auto;
+        margin: 25px auto 100px auto;
         max-width: 60%;
         height: auto;
         display: grid;
