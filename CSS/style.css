@@ -187,6 +187,7 @@ a:hover {
     border-right: 2px solid rgb(129, 129, 0);
     font-family: "Comic Sans MS";
     text-align: center;
+    cursor: pointer;
 }
 
 /* Grille catégories de la page d'accueil */

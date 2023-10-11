@@ -114,7 +114,7 @@ function get_plats_pop() {
 
 global $db, $rqtprep, $rqt, $executerqt;
 
-$rqtprep = "SELECT plat.image, plat.id, plat.libelle AS 'plat', SUM(commande.quantite) AS `plats les plus vendus` FROM `plat` INNER JOIN `commande` ON plat.id = commande.id_plat WHERE plat.active='Yes' GROUP BY commande.id_plat ORDER BY `plats les plus vendus` DESC LIMIT 3";
+$rqtprep = "SELECT plat.image, plat.id, plat.libelle AS 'plat', SUM(commande.quantite) AS `plats les plus vendus` FROM `plat` INNER JOIN `commande` ON plat.id = commande.id_plat INNER JOIN `categorie` ON plat.id_categorie=categorie.id WHERE plat.active='Yes' AND categorie.active='Yes' GROUP BY commande.id_plat ORDER BY `plats les plus vendus` DESC LIMIT 3";
 $rqt = $db->prepare($rqtprep);
 $rqt->execute();
 $executerqt = $rqt->fetchAll();
@@ -140,7 +140,7 @@ function affich_plats_cat() {
 
 global $db, $rqtprep, $rqt, $executerqt;
 
-$rqtprep = "SELECT categorie.id AS 'id_categorie', categorie.libelle AS 'libelle_categorie', plat.id AS 'id_plat', plat.libelle AS 'libelle_plat' FROM `plat` INNER JOIN `categorie` ON plat.id_categorie=categorie.id WHERE plat.id_categorie=? AND plat.active='Yes'";
+$rqtprep = "SELECT categorie.id AS 'id_categorie', categorie.libelle AS 'libelle_categorie', plat.id AS 'id_plat', plat.libelle AS 'libelle_plat' FROM `plat` INNER JOIN `categorie` ON plat.id_categorie=categorie.id WHERE categorie.active='Yes' AND plat.active='Yes' AND plat.id_categorie=? AND plat.active='Yes'";
 $rqt = $db->prepare($rqtprep);
 $rqt->execute(array($_GET["id"]));
 $executerqt = $rqt->fetchAll();
@@ -153,7 +153,7 @@ function affich_titre_cat() {
 
     global $db, $rqtprep, $rqt, $executerqt;
 
-$rqtprep = "SELECT categorie.id, categorie.libelle FROM `categorie`WHERE categorie.id=?";
+$rqtprep = "SELECT categorie.id, categorie.libelle FROM `categorie`WHERE categorie.active='Yes' AND categorie.id=?";
 $rqt = $db->prepare($rqtprep);
 $rqt->execute(array($_GET["id"]));
 $executerqt = $rqt->fetchAll();

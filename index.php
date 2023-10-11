@@ -23,10 +23,10 @@ require 'DAO.php';
         ?>
     </header>
         <div id="sous-top_accueil"><video src="/ASSETS/images_the_district/vegetables_-_14129(360p).mp4" class="video" autoplay loop muted></video>
-                <form action="" method="get" id="search">
-                <input type="text" placeholder="Recherche..." id="barre_search">
-                <input type="button" value="envoyer" id="boutton">
-                </form>
+                <div id="search">
+                <input type="search" placeholder="Recherche..." id="barre_search" name="search">
+                <button type="button" id="boutton">Chercher</button>
+                </div>
         </div>
         <p id="p-accueil" class="color_titre_accueil">Catégories :</p>
         <div id="grille_catégories">
@@ -56,5 +56,6 @@ require 'DAO.php';
             ?>
         </footer>
         <script src="JAVASCRIPT/script.js"></script>
+        <script src="JAVASCRIPT/searchbar.js"></script>
 </body>
 </html>
