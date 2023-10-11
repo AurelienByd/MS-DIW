@@ -45,7 +45,7 @@ require 'DAO.php';
         <?php get_plats_pop();
         foreach($executerqt as $row): ?>
 
-            <div class="plat_<?=$row["id"]?>"><a href="plat.php?id=<?=  $row["id"] ?>" title="<?= $row["libelle"] ?>"><p class="invtext">clique ici</p></a></div>
+            <div class="plat_<?=$row["id"]?>"><a href="plat.php?id=<?=  $row["id"] ?>"><p class="invtext">clique ici</p></a></div>
 
         <?php endforeach; ?>
 
