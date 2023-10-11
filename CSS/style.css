@@ -485,8 +485,6 @@ footer {
     border: 2px solid #000000;
     display: block;
     margin: 50px auto  auto auto;
-    /* justify-content: center; */
-    /* align-items: center; */
     background-image: url(/ASSETS/images_the_district/bg.jpg);
     background-size: cover;
     background-position-y: center;
