@@ -1412,7 +1412,17 @@ textarea {
 /* Pour page commande */
 
 .imptitre {
-    margin: 65% auto auto auto;
+    margin: 30% auto auto auto;
+    font-size: medium;
+    font-weight: 700;
+    color: #000000;
+    background-color: #FF0000;
+    text-decoration-line: underline;
+    opacity: 0.75;
+}
+
+.imptitre2 {
+    margin: 30% auto auto auto;
     font-size: medium;
     font-weight: 700;
     color: #000000;
@@ -2555,7 +2565,17 @@ textarea {
     
 
     .imptitre {
-        margin: 62% auto auto auto;
+        margin: -30% auto auto auto;
+        font-size: small;
+        font-weight: 700;
+        color: #000000;
+        background-color: #FF0000;
+        text-decoration-line: underline;
+        opacity: 0.75;
+    }
+
+    .imptitre2 {
+        margin: 30% auto auto auto;
         font-size: small;
         font-weight: 700;
         color: #000000;

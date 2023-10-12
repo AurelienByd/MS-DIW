@@ -44,7 +44,7 @@ require 'DAO.php';
             <?php affich_plats_cat();
             foreach($executerqt as $row): ?>
 
-            <div class="cat_<?=$row["id_categorie"]?>_plat_<?=$row["id_plat"]?>"><a href="plat.php?id=<?=  $row["id_plat"] ?>" title="<?=$row["libelle_plat"]?>"><p class="imptitre"><?=$row["libelle_plat"]?></p></a></div>
+            <div class="cat_<?=$row["id_categorie"]?>_plat_<?=$row["id_plat"]?>"><a href="plat.php?id=<?=  $row["id_plat"] ?>" title="<?=$row["libelle_plat"]?>"><p class="invtext">clique ici</p><p class="imptitre2"><?=$row["libelle_plat"]?></p></a></div>
 
             <?php endforeach; ?>
 

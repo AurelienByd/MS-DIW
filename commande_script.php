@@ -2,9 +2,9 @@
 
 require 'connexion.php';
 
-session_start();
-
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+
+    session_start();
 
     $_SESSION["auth"] = true;
 

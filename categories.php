@@ -29,7 +29,7 @@ require 'DAO.php';
         <?php get_categories();
         foreach($executerqt as $row): ?>
         
-            <div class="cat_<?=$row["id"]?>"><a href="categorie.php?id=<?=  $row["id"] ?>" title="<?= $row["libelle"] ?>"><p class="imptitre"><?= $row["libelle"] ?></p></a></div>
+            <div class="cat_<?=$row["id"]?>"><a href="categorie.php?id=<?=  $row["id"] ?>" title="<?= $row["libelle"] ?>"><p class="invtext">clique ici</p><p class="imptitre"><?= $row["libelle"] ?></p></a></div>
 
         <?php endforeach; ?>
 
