@@ -1049,11 +1049,15 @@ footer {
 /* Image de fond de la page d'accueil */
 
 .parallax {
+        /* position de l'image d'arrière plan fixée */
     background-attachment: fixed;
+        /* On couvre toute la largeur et la hauteur de la page */
     background-size: cover;
+        /* Position initiale centrée */
     background-position: 0 center;
     background-repeat: no-repeat;
     height: 100vh;
+        /* image d'arrière plan */
     background-image: url(/ASSETS/images_the_district/vecteezy_nuts-fruits-and-vegetables-flat-lay_2037798.jpg);
 }
 
@@ -1315,6 +1319,7 @@ textarea {
     /* margin: 10px; */
     font-family: 'Comic Sans MS';
     font-size: 30px;
+        /* On enlève le style de la balise 'ul' */
     list-style: none;
 }
 
@@ -1338,6 +1343,7 @@ textarea {
     transition: 0.7s ease;
 }
 
+    /* Le boutton de la navbar n'apparait pas sur la version ordi */
 .hamburger {
     display: none;
 }
@@ -1715,6 +1721,7 @@ textarea {
 
 /* Pour navbar */
 
+        /* On fait apparaitre le boutton de la navbar pour la version mobile */
     .hamburger {
         display: block;
     }
@@ -1733,6 +1740,7 @@ textarea {
 
     .nav-menu {
         position: fixed;
+            /* le menu des éléments est caché hors de la vision sur l'écran sur la gauche tant que l'utilisateur n'a pas cliqué sur le boutton 'Menu' */
         left: -100%;
         top: 70px;
         gap: 0;
@@ -1743,6 +1751,7 @@ textarea {
         transition: 0.3s;
     }
 
+        /* le menu des éléments apparait quand l'utilisateur clique sur le boutton 'Menu' */
     .nav-menu.active {
         left: 0;
     }
@@ -1768,6 +1777,7 @@ textarea {
 }
 
     .parallax {
+            /* On enlève l'image d'arrière plan sur la version mobile de la page d'accueil */
         background-image: none;
     }
 

@@ -1,5 +1,6 @@
 <?php
 
+    // On met en 'require' le fichier PHP qui permet de se connecter à la base de données car il est indispensable à la bonne présentation du site
 require 'connexion.php';
 
 session_start();

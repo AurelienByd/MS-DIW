@@ -1,22 +1,31 @@
 <?php
 
+    // On met en 'require' le fichier PHP qui permet de se connecter à la base de données car il est indispensable à la bonne présentation du site
 require 'connexion.php';
 
+    // Le fichier DAO.php permet de stocker les fonctions pour utiliser les requêtes SQL sur les fichiers PHP
 require 'DAO.php';
 
 ?>
 <!DOCTYPE html>
+    <!-- 'Lang' permet de définir la langue utilisée pour l'élément -->
 <html lang="fr">
 <head>
+        <!-- 'meta charset' détermine la façon dont le texte est transmis et stocké -->
     <meta charset="UTF-8">
+        <!-- 'http-equiv' permet de modifier le comportement des serveurs ou des agents utilisateur par une valeur définie avec l'attribut 'content' -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- 'link rel(relation) icon' utilisé pour intégrer une icône pour l'onglet de la page -->
     <link rel="icon" href="/ASSETS/images_the_district/logo.ico">
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+        <!-- 'link rel(relation) stylesheet' permet d'ajouter une feuille de style CSS à son fichier HTML -->
     <link rel="stylesheet" href="CSS/style.css">
+        <!-- La balise 'title' utilisée pour nommer son site, le nom y est figuré dans l'onglet de la page, utilisé pour le référencement sur les moteurs de recherche -->
     <title>The District</title>
 </head>
-<body class="bg-warning bg-opacity-25">
+<body>
+    <!-- En-tête de la page -->
     <header>
         <?php
         require "header.php";
@@ -57,7 +66,9 @@ require 'DAO.php';
     
     <form action="commande_script.php" method="post" id="form-commande">
 
-    <?php affich_plat();
+    <?php 
+        // On appelle la fonction présente dans le fichier DAO.php
+    affich_plat();
         foreach($executerqt as $row): ?>
         
         <section id="sectionCommandePlat">
@@ -108,6 +119,7 @@ require 'DAO.php';
         ?>
     </footer>
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+        <!-- On intègre ses fichiers JAVASCRIPT -->
     <script src="JAVASCRIPT/script.js"></script>
     <script src="JAVASCRIPT/commande.js"></script>
 </body>
